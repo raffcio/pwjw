@@ -17,18 +17,8 @@ def DBImport():
 	produkty = xmltree.getroot()
 	i=0
 	if produkty is not None:
-		for prod in produkty.findall('prod'):
-			
+		for prod in produkty.findall('prod'):		
 			i=i+1
 			print(i)
-			#print('''awId: %s, programName: %s''' % ( prod.get( 'awId', '' ), prod.get( 'programName', '' ) ) )
-			#print(''' pId: %s ''' % prod.find("pId").text)
-			#print(''' name: %s ''' % prod.find("name").text)
-			#print(''' desc: %s ''' % prod.find("desc").text)
-			#print(''' awLink: %s ''' % prod.find("awLink").text)
-			#print(''' awThumb: %s ''' % prod.find("awThumb").text)
-			#print(''' awImage: %s ''' % prod.find("awImage").text)
-			#print(''' desc: %s ''' % prod.find("desc").text)
-			#print(random.randint(1,10))
 			b = Book(pId=prod.find("pId").text ,	name=prod.find("name").text ,	desc=prod.find("desc").text or "",	awLink=prod.find("awLink").text ,	awThumb=prod.find("awThumb").text ,	awImage=prod.find("awImage").text ,	ilosc=random.randint(1,10)) 
 			b.save()
