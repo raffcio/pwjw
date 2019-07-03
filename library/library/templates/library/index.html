@@ -1,0 +1,10 @@
+<button onclick="location.href = 'imports';" id="myButton" class="float-left submit-button" >Baza danych</button>
+{% if book_list %}
+    <ul>
+    {% for book in book_list %}
+        <li><a href="/library/{{ book.id }}/">{{ book.name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No books are available.</p>
+{% endif %}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+	<prod awId="582876254" programName="inbook.pl">
+		<pId>364473</pId>
+		<name>Drupal 7 w praktyce. Własna strona WWW w jeden dzień - Krzysztof Palikowski</name>
+		<desc/>
+		<cat>
+			<awCatId>48</awCatId>
+			<awCat>Informatyka</awCat>
+			<mCat>Książki / Informatyka / Pozostałe</mCat>
+		</cat>
+		<awLink>https://webep1.com/Zobacz/To?a=575&amp;mp=805&amp;x=51192&amp;r=L2RydXBhbC03LXctcHJha3R5Y2Utd2xhc25hLXN0cm9uYS13d3ctdy1qZWRlbi1kemllbi1rcnp5c3p0b2YtcGFsaWtvd3NraT9sa3N0PTMyNTc30&amp;pids=364473&amp;rdir=we&amp;&amp;subID=1163</awLink>
+		<awThumb>https://img.weben1.com/Thumbnail/805/A435FF778D9E66B33EECF15F0546C1D1.jpg</awThumb>
+		<awImage>https://img.weben1.com/Pictures/805/A435FF778D9E66B33EECF15F0546C1D1.jpg</awImage>
+		<deliveryTime>dostępny od ręki</deliveryTime>
+		<price>
+			<display>33.16</display>
+		</price>
+		<atribute Name="ISBN">9788324627110</atribute>
+		<atribute Name="ShopProductId">364473</atribute>
+		<atribute Name="EAN">9788324627110</atribute>
+		<atribute Name="PreviousPrice">33.16</atribute>
+		<KosztyWysylki>
+			<Przedplata>0.0000</Przedplata>
+			<Zapobraniem>5.0000</Zapobraniem>
+			<Odbiorosobisty>0.0000</Odbiorosobisty>
+			<KartaKredytowa>0.0000</KartaKredytowa>
+			<Paypal>0.0000</Paypal>
+			<PolecenieZaplaty>0.0000</PolecenieZaplaty>
+		</KosztyWysylki>
+		<KosztyWysylkiKomentarz>Masz do wyboru: Pocztę, Paczkomaty, Kuriera GLS, DHL lub odbiór osobisty w wielu miastach w Polsce!</KosztyWysylkiKomentarz>
+	</prod>
+		<prod awId="582876255" programName="inbook.pla">
+		<pId>364473</pId>
+		<name>Drupal 7 w praktyce. Własna strona WWW w jeden dzień - Krzysztof Palikowski</name>
+		<desc/>
+		<cat>
+			<awCatId>48</awCatId>
+			<awCat>Informatyka</awCat>
+			<mCat>Książki / Informatyka / Pozostałe</mCat>
+		</cat>
+		<awLink>https://webep1.com/Zobacz/To?a=575&amp;mp=805&amp;x=51192&amp;r=L2RydXBhbC03LXctcHJha3R5Y2Utd2xhc25hLXN0cm9uYS13d3ctdy1qZWRlbi1kemllbi1rcnp5c3p0b2YtcGFsaWtvd3NraT9sa3N0PTMyNTc30&amp;pids=364473&amp;rdir=we&amp;&amp;subID=1163</awLink>
+		<awThumb>https://img.weben1.com/Thumbnail/805/A435FF778D9E66B33EECF15F0546C1D1.jpg</awThumb>
+		<awImage>https://img.weben1.com/Pictures/805/A435FF778D9E66B33EECF15F0546C1D1.jpg</awImage>
+		<deliveryTime>dostępny od ręki</deliveryTime>
+		<price>
+			<display>33.16</display>
+		</price>
+		<atribute Name="ISBN">9788324627110</atribute>
+		<atribute Name="ShopProductId">364473</atribute>
+		<atribute Name="EAN">9788324627110</atribute>
+		<atribute Name="PreviousPrice">33.16</atribute>
+		<KosztyWysylki>
+			<Przedplata>0.0000</Przedplata>
+			<Zapobraniem>5.0000</Zapobraniem>
+			<Odbiorosobisty>0.0000</Odbiorosobisty>
+			<KartaKredytowa>0.0000</KartaKredytowa>
+			<Paypal>0.0000</Paypal>
+			<PolecenieZaplaty>0.0000</PolecenieZaplaty>
+		</KosztyWysylki>
+		<KosztyWysylkiKomentarz>Masz do wyboru: Pocztę, Paczkomaty, Kuriera GLS, DHL lub odbiór osobisty w wielu miastach w Polsce!</KosztyWysylkiKomentarz>
+	</prod>
+</products>
+			

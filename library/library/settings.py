@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 're=db79kf&6p8@(-o61oi1u$fv)#0xoe6-z=aa2p0l&6#trql&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost','127.0.0.1']
 
 
 
@@ -39,9 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-	#'import_export',
-	
-	#'dbimport.apps.DBIimportConfig',
+
+
 ]
 
 IMPORT_EXPORT_USE_TRANSACTIONS = True

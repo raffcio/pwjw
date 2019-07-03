@@ -16,7 +16,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
+from . import views
+from . import models
+
 urlpatterns = [
-    path('dbimport/', include('dbimport.urls')),
+    path('', views.index, name='index'),
+	path('library/', views.index, name='index'),
+	path('library/<int:book_id>/', views.szczegoly, name='szczegoly'),
+	path('library/imports/', views.imports, name='imports'),
+	path('library/import/', views.DBimport, name='DBimport'),
+	path('library/usun/', views.DBdelete, name='DBdelete'),
     path('admin/', admin.site.urls),
 ]
