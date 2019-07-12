@@ -23,3 +23,8 @@ def DBimport(request):
 def DBdelete(request):
 	Book.objects.all().delete()
 	return HttpResponse("<meta http-equiv='Refresh' content='0; url=../' />")
+	
+def wypozycz(request, book_id):
+	book = get_object_or_404(Book, pk=book_id)
+	book.delete()
+	return render(request,'library/index.html')

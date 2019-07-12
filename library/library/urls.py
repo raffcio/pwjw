@@ -24,6 +24,7 @@ urlpatterns = [
 	path('library/', views.index, name='index'),
 	path('library/<int:book_id>/', views.szczegoly, name='szczegoly'),
 	path('library/imports/', views.imports, name='imports'),
+	path('library/wypozycz/<int:book_id>/', views.wypozycz, name='wypozycz'),
 	path('library/import/', views.DBimport, name='DBimport'),
 	path('library/usun/', views.DBdelete, name='DBdelete'),
     path('admin/', admin.site.urls),
