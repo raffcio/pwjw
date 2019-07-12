@@ -1,10 +1,26 @@
-<button onclick="location.href = 'imports';" id="myButton" class="float-left submit-button" >Baza danych</button>
+{% load static %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="pl" />
+	
+	<link rel="stylesheet" href="style.css"  type="text/css" />
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+	
+</head>
+<body style="background-color:#464646;">
+    
+<button style="display: block;width: 150px;height: 60px;color: #8f8f8f;background-color: #323232" onclick="location.href = 'imports';" id="myButton" class="float-left submit-button" >Baza danych</button>
 {% if book_list %}
     <ul>
     {% for book in book_list %}
-        <li><a href="/library/{{ book.id }}/">{{ book.name }}</a></li>
+        <li style="border-bottom: none;color: #808080;height: 27px;display: block;background-color: #161616;padding: 0px 20px;font-weight: bold;padding-top: 8px;margin: 0;"><a style="text-decoration: none; color: #505050;" href="/library/{{ book.id }}/">{{ book.name }}</a></li>
     {% endfor %}
     </ul>
 {% else %}
     <p>No books are available.</p>
 {% endif %}
+    
+</body>  
